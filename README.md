@@ -7,7 +7,7 @@ Simple array config access
 Install this package via composer:
 
 ```sh
-composer install indgy/config
+composer install ignition-studios/config
 ```
 
 ## Usage
@@ -60,8 +60,11 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ## Credits
 
-- [indgy](https://indgy.uk)
+- [Ian Grindley](https://ignition-studios.com)
 
 ## License
 
-MIT
+### Proprietary
+
+The code in this repository is proprietary, unauthorised reproduction or distribution is forbidden.
+Written authorisation may only be granted by a Director of Ignition Studios Ltd.

@@ -1,33 +1,26 @@
 {
-    "name": "ignition-studios/config",
+    "name": "indgy/config",
     "type": "library",
     "minimum-stability": "stable",
     "description": "Simple array config access",
     "keywords": [],
-    "homepage": "https://github.com/ignition-studios/config",
-    "license": "proprietary",
+    "homepage": "https://github.com/indgy/config",
+    "license": "MIT",
     "authors": [
         {
-            "name": "Ian Grindley",
-            "email": "ian@igniton-studios.com"
+            "name": "indgy",
+            "email": "me@indgy.uk"
         }
     ],
     "require": {
         "php": "~7.4 || ~8.0",
-        "adbario/php-dot-notation": "~2.2 || ~3.1",
-        "ignition-studios/interfaces": "^1.0"
+        "adbario/php-dot-notation": "~2.2 || ~3.1"
     },
     "autoload": {
         "psr-4": {
-            "Ignite\\Config\\": "src/Config/"
+            "Indgy\\Config\\": "src/Config/"
         }
     },
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "https://pkgs.ignition-studios.com"
-        }
-    ],
     "scripts": {
         "analyse": "phpstan analyse src/Config --level=6",
         "api-docs": "php /opt/local/bin/doctum update ./doctum.config.php", 
